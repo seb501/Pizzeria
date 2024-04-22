@@ -212,7 +212,20 @@ der online-Dokumentation (auf Englisch!).
 ## Qualitätsbaum {#_qualit_tsbaum}
 
 ## Qualitätsszenarien {#_qualit_tsszenarien}
+    Benutzerfreundlichkeit:
+        Szenario: Ein neuer Benutzer soll in der Lage sein, eine Bestellung innerhalb von 2 Minuten ohne vorherige Schulung oder Anleitung aufzugeben.
 
+    Skalierbarkeit:
+        Szenario: Die App soll in der Lage sein, den Anstieg von Bestellungen während Spitzenzeiten, wie z.B. Feiertagen oder Veranstaltungen, zu bewältigen, ohne dass die Leistung beeinträchtigt wird.
+
+    Zuverlässigkeit:
+        Szenario: Die App soll in der Lage sein, unerwartete Fehler oder Ausfälle zu erkennen und sich automatisch zu erholen, um eine kontinuierliche Verfügbarkeit zu gewährleisten.
+
+    Sicherheit:
+        Szenario: Die App soll sensible Benutzerdaten, wie z.B. Zahlungsinformationen, sicher verschlüsseln und speichern, um unbefugten Zugriff zu verhindern.
+
+    Performance:
+        Szenario: Die App soll Bestellungen innerhalb von maximal 5 Sekunden verarbeiten, um eine schnelle und effiziente Bedienung sicherzustellen, auch während Spitzenzeiten.
 # Risiken und technische Schulden {#section-technical-risks}
 
 # Glossar {#section-glossary}

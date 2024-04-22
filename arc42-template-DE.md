@@ -30,9 +30,9 @@ contributors. Siehe <https://arc42.org>.
 +-----------------+-----------------+-----------------------------------+
 | Rolle           | Kontakt         | Erwartungshaltung                 |
 +=================+=================+===================================+
-| *\<Rolle-1>*    | *\<Kontakt-1>*  | *\<Erwartung-1>*                  |
+| *\<Product Owner>*    | *\<Kontakt-1>*  | *\<Erwartung-1>*            |
 +-----------------+-----------------+-----------------------------------+
-| *\<Rolle-2>*    | *\<Kontakt-2>*  | *\<Erwartung-2>*                  |
+| *\<Scrum Master>*    | *\<Kontakt-2>*  | *\<Erwartung-2>*             |
 +-----------------+-----------------+-----------------------------------+
 
 # Randbedingungen {#section-architecture-constraints}

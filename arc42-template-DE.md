@@ -15,7 +15,16 @@ contributors. Siehe <https://arc42.org>.
 ## Aufgabenstellung {#_aufgabenstellung}
 
 ## Qualitätsziele {#_qualit_tsziele}
-
+    Benutzerfreundlichkeit:
+        Ziel: Die Benutzeroberfläche der App soll intuitiv und einfach zu bedienen sein, um eine angenehme Benutzererfahrung zu bieten.
+    Skalierbarkeit:
+        Ziel: Die App soll in der Lage sein, mit dem Wachstum des Geschäfts umzugehen und skalierbar zu sein, um den Betrieb in mehreren Filialen zu unterstützen.
+    Zuverlässigkeit:
+        Ziel: Die App soll robust und zuverlässig sein, um einen kontinuierlichen Betrieb zu gewährleisten und Ausfallzeiten zu minimieren.
+    Sicherheit:
+        Ziel: Die App soll sicher sein und persönliche Daten der Benutzer sowie die Integrität der Geschäftsdaten schützen.
+    Performance:
+        Ziel: Die App soll schnell und reaktionsschnell sein, um eine effiziente Bedienung auch bei hoher Last zu ermöglichen.
 ## Stakeholder {#_stakeholder}
 
 +-----------------+-----------------+-----------------------------------+

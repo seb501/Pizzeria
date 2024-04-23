@@ -15,15 +15,24 @@ contributors. Siehe <https://arc42.org>.
 ## Aufgabenstellung {#_aufgabenstellung}
 
 ## Qualitätsziele {#_qualit_tsziele}
-
+    Benutzerfreundlichkeit:
+        Ziel: Die Benutzeroberfläche der App soll intuitiv und einfach zu bedienen sein, um eine angenehme Benutzererfahrung zu bieten.
+    Skalierbarkeit:
+        Ziel: Die App soll in der Lage sein, mit dem Wachstum des Geschäfts umzugehen und skalierbar zu sein, um den Betrieb in mehreren Filialen zu unterstützen.
+    Zuverlässigkeit:
+        Ziel: Die App soll robust und zuverlässig sein, um einen kontinuierlichen Betrieb zu gewährleisten und Ausfallzeiten zu minimieren.
+    Sicherheit:
+        Ziel: Die App soll sicher sein und persönliche Daten der Benutzer sowie die Integrität der Geschäftsdaten schützen.
+    Performance:
+        Ziel: Die App soll schnell und reaktionsschnell sein, um eine effiziente Bedienung auch bei hoher Last zu ermöglichen.
 ## Stakeholder {#_stakeholder}
 
 +-----------------+-----------------+-----------------------------------+
 | Rolle           | Kontakt         | Erwartungshaltung                 |
 +=================+=================+===================================+
-| *\<Rolle-1>*    | *\<Kontakt-1>*  | *\<Erwartung-1>*                  |
+| *\<Product Owner>*    | *\<Kontakt-1>*  | *\<Erwartung-1>*            |
 +-----------------+-----------------+-----------------------------------+
-| *\<Rolle-2>*    | *\<Kontakt-2>*  | *\<Erwartung-2>*                  |
+| *\<Scrum Master>*    | *\<Kontakt-2>*  | *\<Erwartung-2>*             |
 +-----------------+-----------------+-----------------------------------+
 
 # Randbedingungen {#section-architecture-constraints}
@@ -203,7 +212,20 @@ der online-Dokumentation (auf Englisch!).
 ## Qualitätsbaum {#_qualit_tsbaum}
 
 ## Qualitätsszenarien {#_qualit_tsszenarien}
+    Benutzerfreundlichkeit:
+        Szenario: Ein neuer Benutzer soll in der Lage sein, eine Bestellung innerhalb von 2 Minuten ohne vorherige Schulung oder Anleitung aufzugeben.
 
+    Skalierbarkeit:
+        Szenario: Die App soll in der Lage sein, den Anstieg von Bestellungen während Spitzenzeiten, wie z.B. Feiertagen oder Veranstaltungen, zu bewältigen, ohne dass die Leistung beeinträchtigt wird.
+
+    Zuverlässigkeit:
+        Szenario: Die App soll in der Lage sein, unerwartete Fehler oder Ausfälle zu erkennen und sich automatisch zu erholen, um eine kontinuierliche Verfügbarkeit zu gewährleisten.
+
+    Sicherheit:
+        Szenario: Die App soll sensible Benutzerdaten, wie z.B. Zahlungsinformationen, sicher verschlüsseln und speichern, um unbefugten Zugriff zu verhindern.
+
+    Performance:
+        Szenario: Die App soll Bestellungen innerhalb von maximal 5 Sekunden verarbeiten, um eine schnelle und effiziente Bedienung sicherzustellen, auch während Spitzenzeiten.
 # Risiken und technische Schulden {#section-technical-risks}
 
 # Glossar {#section-glossary}

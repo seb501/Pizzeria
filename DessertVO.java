@@ -1,6 +1,6 @@
 public class DessertVO extends DishVO {
     private String name;
-    private double price;
+    private float price;
 
     public DessertVO(String name, float price) {
        // this.name = name;

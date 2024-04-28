@@ -1,19 +1,20 @@
-public class DessertVO {
+public class DessertVO extends DishVO {
     private String name;
     private double price;
 
-    public DessertVO(String name, double price) {
-        this.name = name;
-        this.price = price;
+    public DessertVO(String name, float price) {
+       // this.name = name;
+       // this.price = price;
+        super(name, price);
     }
 
-    public String getName() {
-        return name;
+    public DessertVO() {
+        this( null, 0.00f);
     }
 
-    public double getPrice() {
-        return price;
+    @Override
+    public String getNameOfDish() {
+        return this.name;
     }
 
-    // You can add setters if needed
 }

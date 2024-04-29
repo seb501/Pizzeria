@@ -17,4 +17,12 @@ public class DessertVO extends DishVO {
         return this.name;
     }
 
+    public  void setName(String name){
+        this.name = name;
+    }
+
+    public void setPrice(float price){
+        this.price = price;
+    }
+
 }

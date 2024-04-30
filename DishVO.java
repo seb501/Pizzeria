@@ -74,17 +74,7 @@ public abstract class DishVO implements Comparable<DishVO>, Cloneable {
     }
     return true;
   }
-
-//  @Override
-//  public int hashCode() {
-//    final int prime = 31;
-//    int result = 1;
-//    result = prime * result + Float.floatToIntBits(price);
-//    result = prime * result + ((name == null) ? 0 : name.hashCode());
-//    result = prime * result + ((ingredients == null) ? 0 : ingredients.hashCode());
-//    result = prime * result + number;
-//    return result;
-//  }
+  
   @Override
   public String toString() {
     return "DishVO: Name=" + getNameOfDish() + ", Ingredients=" + ingredientsToString() + ", Price=" + price;

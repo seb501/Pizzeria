@@ -42,13 +42,6 @@ public class PizzaVO extends DishVO implements Cloneable {
     return true;
   }
 
-//  @Override
-//  public int hashCode() {
-//    final int prime = 31;
-//    int result = super.hashCode();
-//    result = prime * result + size;
-//    return result;
-//  }
 
   @Override
   public String toString() {

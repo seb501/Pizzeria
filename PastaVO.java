@@ -21,13 +21,6 @@ public class PastaVO extends DishVO implements Cloneable {
     this(null, null, 0.0f,0);
   }
 
-//  @Override
-//  public int hashCode() {
-//    final int prime = 31;
-//    int result = super.hashCode();
-//    result = prime * result + typeOfPasta;
-//    return result;
-//  }
 
   @Override
   public boolean equals(Object obj) {

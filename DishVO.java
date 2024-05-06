@@ -74,7 +74,7 @@ public abstract class DishVO implements Comparable<DishVO>, Cloneable {
     }
     return true;
   }
-  
+
   @Override
   public String toString() {
     return "DishVO: Name=" + getNameOfDish() + ", Ingredients=" + ingredientsToString() + ", Price=" + price;

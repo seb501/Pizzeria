@@ -1,3 +1,5 @@
+package src;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -7,7 +9,12 @@ public class PizzeriaView {
     private JPanel panelGlobal, panelLeft, panelRight;
     private JTextArea orderArea;
     private JTextField orderField;
-    private JButton orderButton;
+    //private JButton orderButton;
+    private JButton menuButton;
+    private JButton kundenButton;
+    private JButton bestellungButton;
+    private JButton mitarbeiterButton;
+
     // Add more components as needed
 
     public PizzeriaView() {
@@ -20,7 +27,11 @@ public class PizzeriaView {
         orderField = new JTextField(20);
         panelLeft = new JPanel();
         panelRight = new JPanel(new GridBagLayout());
-        orderButton = new JButton("Place Order");
+        //orderButton = new JButton("Place Order");
+        menuButton = new JButton("Menu");
+        kundenButton = new JButton("Kunden");
+        bestellungButton = new JButton("Bestellung");
+        mitarbeiterButton = new JButton("Mitarbeiter");
         
         // Initialize and add more components to the panel
 
@@ -35,8 +46,16 @@ public class PizzeriaView {
         gbc.insets = new Insets(0, 0, 10, 0);
         panelRight.add(orderField, gbc);
         gbc.gridy = 2;
+       // gbc.insets = new Insets(0, 120, 0, 0); // Reset insets for button
+       // panelRight.add(orderButton, gbc);
+        gbc.insets = new Insets(0, 0, 0, 120); // Reset insets for button
+        panelRight.add(menuButton, gbc);
         gbc.insets = new Insets(0, 120, 0, 0); // Reset insets for button
-        panelRight.add(orderButton, gbc);
+        panelRight.add(kundenButton, gbc);
+        gbc.insets = new Insets(0, 0, 0, 120); // Reset insets for button
+        panelLeft.add(bestellungButton, gbc);
+        gbc.insets = new Insets(0, 120, 0, 0); // Reset insets for button
+        panelLeft.add(mitarbeiterButton, gbc);
         
         // Add components to the panel
         panelGlobal.add(panelLeft);
@@ -55,13 +74,23 @@ public class PizzeriaView {
     }
 
     // Add methods to handle events and update UI as needed
-    public JButton getOrderButton(){
-        return orderButton;
-    }
+    //public JButton getOrderButton(){
+      //  return orderButton;
+    //}
     public JTextField getOrderField(){
         return orderField;
     }
     public JTextArea getOrderArea(){
         return orderArea;
+    }
+    public JButton getMenuButton(){
+        return menuButton;
+    }
+    public JButton getBestellungButton(){return bestellungButton;}
+    public JButton getKundenButton(){
+        return kundenButton;
+    }
+    public JButton getMitarbeiterButton(){
+        return mitarbeiterButton;
     }
 }

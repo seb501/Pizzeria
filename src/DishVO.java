@@ -1,11 +1,21 @@
+package src;
+
 import java.util.Arrays;
+
+
 public abstract class DishVO implements Comparable<DishVO>, Cloneable {
 
+  protected int number;
   protected String name;
   protected String [] ingredients;
   protected float price;
 
-
+  public int getNumber() {
+    return number;
+  }
+  public void setNumber(int number) {
+    this.number = number;
+  }
   public String getName() {
     return name;
   }
@@ -28,19 +38,21 @@ public abstract class DishVO implements Comparable<DishVO>, Cloneable {
   public void setIngredients(String[] ingredients) {
     this.ingredients = ingredients;
   }
-  public DishVO(String name, String [] ingredients, float price) {
+  public DishVO(int number, String name, String [] ingredients, float price) {
     this.setIngredients(ingredients);
     this.setName(name);
+    this.setNumber(number);
     this.setPrice(price);
   }
-  public DishVO(String name, float price) {
-    this(name, null, price);
+  public DishVO(int number, String name, float price) {
+    this(number, name, null, price);
   }
   public DishVO() {
-    this(null, null, 0.0f);
+    this(0, null, null, 0.0f);
   }
 
   public abstract String getNameOfDish();
+  public abstract int getNumberOfDish();
 
   @Override
   public boolean equals(Object obj) {
@@ -55,6 +67,8 @@ public abstract class DishVO implements Comparable<DishVO>, Cloneable {
 
     dish = (DishVO) obj;
 
+    if(number != dish.getNumber())
+      return false;
 
     if(price != dish.getPrice())
       return false;
@@ -77,7 +91,7 @@ public abstract class DishVO implements Comparable<DishVO>, Cloneable {
 
   @Override
   public String toString() {
-    return "DishVO: Name=" + getNameOfDish() + ", Ingredients=" + ingredientsToString() + ", Price=" + price;
+    return "DishVO: Name=" + getNameOfDish() + ", Ingredients=" + ingredientsToString() + ", Price=" + price + ", Number=" + getNumberOfDish();
   }
 
   public String ingredientsToString() {
@@ -114,3 +128,4 @@ public abstract class DishVO implements Comparable<DishVO>, Cloneable {
   }
 
 }
+

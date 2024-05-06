@@ -1,28 +1,16 @@
-public class DessertVO extends DishVO {
-    private String name;
-    private float price;
+package src;
 
-    public DessertVO(String name, float price) {
-       // this.name = name;
-       // this.price = price;
-        super(name, price);
+public class DessertVO extends DishVO implements Cloneable {
+    public DessertVO(int number, String name, float price) {
+        super(number, name, null, price);
     }
-
     public DessertVO() {
-        this( null, 0.00f);
+        this(0, null, 0.0f);
     }
-
-    @Override
     public String getNameOfDish() {
-        return this.name;
+        return " - " + name;
     }
-
-    public  void setName(String name){
-        this.name = name;
+    public int getNumberOfDish() {
+        return number;
     }
-
-    public void setPrice(float price){
-        this.price = price;
-    }
-
 }

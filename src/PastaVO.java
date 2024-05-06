@@ -1,3 +1,5 @@
+package src;
+
 public class PastaVO extends DishVO implements Cloneable {
   private int size;
 
@@ -12,15 +14,12 @@ public class PastaVO extends DishVO implements Cloneable {
 
   }
 
-  public PastaVO(String name, String[] ingredients, float price, int size) {
-    super(name, ingredients, price);
+  public PastaVO(int number, String name, String[] ingredients, float price) {
+    super(number, name, ingredients, price);
     this.setSize(size);
   }
 
-  public PastaVO() {
-    this(null, null, 0.0f,0);
-  }
-
+  public PastaVO() {this(0, null, null, 0.0f);}
 
   @Override
   public boolean equals(Object obj) {
@@ -46,10 +45,9 @@ public class PastaVO extends DishVO implements Cloneable {
 
     return " - Pasta " + name + " - " + groesse;
   }
-//  public String getNameOfDish() {
-//    String sorte;
-//    sorte = (typeOfPasta == 4)? "Spaghetti" : (typeOfPasta == 5)? "Tortellini" : (typeOfPasta == 6)? "Gnocchi" : "Pasta";
-//    return " - Pasta " + name + " - " + sorte;
-//  }
+
+  public int getNumberOfDish() {
+    return size * 100 +  number;
+  }
 
 }

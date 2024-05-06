@@ -12,7 +12,7 @@ public class PizzeriaController {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Retrieve text from orderArea and append it to the orderArea
-                String newText = view.getOrderArea().getText() + "\n" + view.getOrderField().getText();
+                String newText = view.getOrderField().getText();
                 view.getOrderArea().setText(newText);
                 // Clear the text field after placing the order
                 view.getOrderField().setText("");

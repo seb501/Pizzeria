@@ -39,5 +39,36 @@ public class MenuVO {
     dishes[i++] = new DessertVO("Hausgemachtes Tiramisu", 2.80f);
   }
 
+/*
+  private void initMenu() {
+    this.dishes = new ArrayList<>();
+    // Hier würden die Gerichte hinzugefügt werden, basierend auf Ihren Daten.
+    // Beispiel:
+    // dishes.add(new Pizza("Margherita", ingredients, price));
+    // dishes.add(new Pasta("Spaghetti Carbonara", ingredients, price));
+    // dishes.add(new Dessert("Tiramisu", ingredients, price));
+  }
+
+  public void addDish(MenuItem dish) {
+    dishes.add(dish);
+  }
+
+  public void removeDish(MenuItem dish) {
+    dishes.remove(dish);
+  }
+
+  public String toString() {
+    DecimalFormat dFormat = new DecimalFormat(".00");
+    StringBuilder sb = new StringBuilder();
+    sb.append("MENU PIZZA PRONTO\n\n");
+
+    for (MenuItem dish : dishes) {
+      sb.append(dish.getDescription());
+      sb.append("\n\tPrice:\t\t\t" + dFormat.format(dish.getPrice()) + " Euro\n");
+    }
+
+    return sb.toString();
+  }*/
+
 
 }

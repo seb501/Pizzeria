@@ -1,6 +1,10 @@
-import static org.junit.Assert.*;
-import org.junit.Test;
-import java.awt.event.ActionEvent;
+import static org.junit.jupiter.api.Assertions.*;
+
+
+
+import domain.PizzeriaController;
+import domain.PizzeriaView;
+import org.junit.jupiter.api.Test;
 
 public class PizzeriaControllerTest {
 

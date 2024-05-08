@@ -1,4 +1,4 @@
-package domain;
+package application;
 
 import javax.swing.*;
 import java.awt.*;

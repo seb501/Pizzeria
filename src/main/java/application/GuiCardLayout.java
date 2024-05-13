@@ -11,7 +11,7 @@ public class GuiCardLayout {
 
     private void init() {
       //erstellt Frame, CardLayout, MainPanel und ButtonPanel
-      JFrame frame = new JFrame();
+      JFrame frame = new JFrame("Pizzeria Manager");
       CardLayout cl = new CardLayout();
       JPanel mainPanel = new JPanel(cl);
       JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
@@ -58,7 +58,7 @@ public class GuiCardLayout {
       frame.pack();
       frame.setLocationRelativeTo(null);
       frame.setVisible(true);
-      frame.setSize(400, 250);
+      frame.setSize(640, 480);
 
     }
 

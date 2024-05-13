@@ -1,4 +1,4 @@
-package src.infrastructure;
+package infrastructure;
 
 public class Pizzeria {
 }

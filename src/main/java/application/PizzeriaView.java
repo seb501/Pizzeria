@@ -45,9 +45,8 @@ public class PizzeriaView {
         gbc.gridy = 1;
         gbc.insets = new Insets(0, 0, 10, 0);
         panelRight.add(orderField, gbc);
+
         gbc.gridy = 2;
-       // gbc.insets = new Insets(0, 120, 0, 0); // Reset insets for button
-       // panelRight.add(orderButton, gbc);
         gbc.insets = new Insets(0, 0, 0, 120); // Reset insets for button
         panelRight.add(menuButton, gbc);
         gbc.insets = new Insets(0, 120, 0, 0); // Reset insets for button

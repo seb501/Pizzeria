@@ -2,8 +2,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 
-import domain.PizzeriaController;
-import domain.PizzeriaView;
+import application.PizzeriaController;
+import application.PizzeriaView;
 import org.junit.jupiter.api.Test;
 
 public class PizzeriaControllerTest {

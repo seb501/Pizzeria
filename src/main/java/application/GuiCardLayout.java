@@ -58,7 +58,7 @@ public class GuiCardLayout {
       frame.pack();
       frame.setLocationRelativeTo(null);
       frame.setVisible(true);
-      frame.setSize(640, 480);
+      frame.setSize(640, 500);
 
     }
 

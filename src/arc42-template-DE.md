@@ -60,7 +60,7 @@ contributors. Siehe <https://arc42.org>.
 ## Whitebox Gesamtsystem {#_whitebox_gesamtsystem}
 
 ***\<Übersichtsdiagramm>***
-[!Diagram Name](use_case.png)
+![Diagram Name](use_case.png)
 Begründung
 
 :   *\<Erläuternder Text>*
